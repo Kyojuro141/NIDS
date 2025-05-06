@@ -1,2 +1,6 @@
 # NIDS
-Intrusion Detection Script (Python) Simulates packet sniffing to detect potential DoS and SQL injection attacks using TCP flags and regex. Logs alerts with source/destination IPs and payload details.
+
+A lightweight simulation of a Network Intrusion Detection System (NIDS) that scans incoming packet-like data for signs of:
+
+-  **DoS Attacks** (SYN flood detection)
+-  **SQL Injections** (via regex payload inspection)
